@@ -68,14 +68,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/charte.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/charte.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/charte.png"
+                    href="/images/charte.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -91,14 +91,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/charte1.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/charte1.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/charte1.png"
+                    href="/images/charte1.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -114,14 +114,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/charte2.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/charte2.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/charte2.png"
+                    href="/images/charte2.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -137,14 +137,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/charte3.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/charte3.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/charte3.png"
+                    href="/images/charte3.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -161,14 +161,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/img-2.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/img-2.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/img-8.png"
+                    href="/images/img-8.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -184,14 +184,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/perso1.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/perso1.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/perso1.png"
+                    href="/images/perso1.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -207,14 +207,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/perso2.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/perso2.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/perso2.png"
+                    href="/images/perso2.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -230,14 +230,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/perso3.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/perso3.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/perso3.png"
+                    href="/images/perso3.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -255,14 +255,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/img-4.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/img-4.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/img-8.png"
+                    href="/images/img-8.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -279,14 +279,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ele8.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ele8.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ele8.png"
+                    href="/images/ele8.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -304,14 +304,14 @@ export default function Portfolio() {
           <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/img-bkg.png" width={500} height={250} />
+                <Image className="img-responsive" alt ="portfolio" src="/images/img-bkg.png" width={500} height={250} />
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/img-bkg.png"
+                    href="/images/img-bkg.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -328,14 +328,14 @@ export default function Portfolio() {
        <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/sportai.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/sportai.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/sportai.png"
+                    href="/images/sportai.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -352,14 +352,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ill1.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ill1.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ill1.png"
+                    href="/images/ill1.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -376,14 +376,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ill2.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ill2.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ill2.png"
+                    href="/images/ill2.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -400,14 +400,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ill3.png" width={500} height={250} />
+                <Image className="img-responsive" alt ="portfolio" src="/images/ill3.png" width={500} height={250} />
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ill3.png"
+                    href="/images/ill3.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -423,14 +423,14 @@ export default function Portfolio() {
             <li className="col-md-4">
             <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ele1.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ele1.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ele1.png"
+                    href="/images/ele1.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -446,14 +446,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ele2.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ele2.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ele2.png"
+                    href="/images/ele2.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -469,14 +469,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ele3.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ele3.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ele3.png"
+                    href="/images/ele3.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -492,14 +492,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ele4.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ele4.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ele4.png"
+                    href="/images/ele4.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -515,14 +515,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ele5.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ele5.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ele5.png"
+                    href="/images/ele5.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -538,14 +538,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ele6.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ele6.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ele6.png"
+                    href="/images/ele6.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >
@@ -561,14 +561,14 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <Image className="img-responsive" src="/images/ele7.png" width={500} height={250}/>
+                <Image className="img-responsive" alt ="portfolio" src="/images/ele7.png" width={500} height={250}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
                     <i className="fa fa-file-text-o" />
                   </a>{" "}
                   <a
-                    href="images/ele7.png"
+                    href="/images/ele7.png"
                     data-rel="prettyPhoto"
                     className="prettyPhoto lightzoom zoom"
                   >

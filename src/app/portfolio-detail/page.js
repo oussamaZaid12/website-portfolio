@@ -62,7 +62,7 @@ export default function Portfolio() {
         {/* Portfolio */}
         <section className="portfolio-single">
           {" "}
-          <Image className="img-responsive" src="images/img-13.jpg" alt="" />
+          <Image className="img-responsive" src="/images/img-13.jpg" alt="" />
           <div className="port-detail">
             <div className="port-bar">
               <h5 className="pull-left">Architecture Design</h5>
