@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import supabase from '../../config/supabaseClient';
+import supabase from '../../src/config/supabaseClient';
 
 export default function Contact() {
   const [name, setName] = useState('');
