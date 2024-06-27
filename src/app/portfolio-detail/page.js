@@ -62,7 +62,7 @@ export default function Portfolio() {
         {/* Portfolio */}
         <section className="portfolio-single">
           {" "}
-          <img className="img-responsive" src="images/img-13.jpg" alt="" />
+          <Image className="img-responsive" src="images/img-13.jpg" alt="" />
           <div className="port-detail">
             <div className="port-bar">
               <h5 className="pull-left">Architecture Design</h5>
@@ -133,11 +133,11 @@ export default function Portfolio() {
 </>
 
 
-<script src="./js/jquery-1.11.0.min.js"></script> 
-<script src="./js/bootstrap.min.js"></script> 
-<script src="./js/counter.js"></script> 
-<script src="./js/jquery.prettyPhoto.js"></script> 
-<script src="./js/main.js"></script>
+<script src="./js/jquery-1.11.0.min.js"async></script> 
+<script src="./js/bootstrap.min.js"async></script> 
+<script src="./js/counter.js"async></script> 
+<script src="./js/jquery.prettyPhoto.js"async></script> 
+<script src="./js/main.js"async></script>
     </>
   );
 }

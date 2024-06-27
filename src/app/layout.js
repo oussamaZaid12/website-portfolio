@@ -14,24 +14,6 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic,700,700italic,800,800italic,300"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-        />
-        <link href="/css/animate.css" rel="stylesheet" type="text/css" />
-        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="/css/main.css" rel="stylesheet" type="text/css" />
-        <link href="/css/style.css" rel="stylesheet" type="text/css" />
-        <link href="/css/responsive.css" rel="stylesheet" type="text/css" />
-      </head>
       <body>{children}</body>
     </html>
   );

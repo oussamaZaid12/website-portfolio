@@ -68,7 +68,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/charte.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/charte.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -91,7 +91,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/charte1.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/charte1.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -114,7 +114,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/charte2.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/charte2.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -137,7 +137,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/charte3.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/charte3.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -161,7 +161,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/img-2.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/img-2.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -184,7 +184,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/perso1.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/perso1.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -207,7 +207,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/perso2.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/perso2.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -230,7 +230,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/perso3.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/perso3.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -255,7 +255,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/img-4.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/img-4.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -279,7 +279,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ele8.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ele8.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -304,7 +304,7 @@ export default function Portfolio() {
           <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/img-bkg.png" alt="" style={{ width: "500px", height: "250px" }} />
+                <Image className="img-responsive" src="images/img-bkg.png" alt="" style={{ width: "500px", height: "250px" }} />
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -328,7 +328,7 @@ export default function Portfolio() {
        <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/sportai.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/sportai.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -352,7 +352,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ill1.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ill1.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -376,7 +376,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ill2.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ill2.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -400,7 +400,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ill3.png" alt="" style={{ width: "500px", height: "250px" }} />
+                <Image className="img-responsive" src="images/ill3.png" alt="" style={{ width: "500px", height: "250px" }} />
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -423,7 +423,7 @@ export default function Portfolio() {
             <li className="col-md-4">
             <article>
                 {" "}
-                <img className="img-responsive" src="images/ele1.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ele1.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -446,7 +446,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ele2.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ele2.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -469,7 +469,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ele3.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ele3.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -492,7 +492,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ele4.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ele4.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -515,7 +515,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ele5.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ele5.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -538,7 +538,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ele6.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ele6.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -561,7 +561,7 @@ export default function Portfolio() {
             <li className="col-md-4">
               <article>
                 {" "}
-                <img className="img-responsive" src="images/ele7.png" alt="" style={{ width: "500px", height: "250px" }}/>
+                <Image className="img-responsive" src="images/ele7.png" alt="" style={{ width: "500px", height: "250px" }}/>
                 <div className="hover">
                   {" "}
                   <a href="#" className="file">
@@ -590,11 +590,11 @@ export default function Portfolio() {
   </div>
 </>
 
-      <script src="/js/jquery-1.11.0.min.js"></script>
-      <script src="/js/bootstrap.min.js"></script>
-      <script src="/js/counter.js"></script>
-      <script src="/js/jquery.prettyPhoto.js"></script>
-      <script src="/js/main.js"></script>
+      <script src="/js/jquery-1.11.0.min.js"async></script>
+      <script src="/js/bootstrap.min.js"async></script>
+      <script src="/js/counter.js"async></script>
+      <script src="/js/jquery.prettyPhoto.js"async></script>
+      <script src="/js/main.js"async></script>
     </>
   );
 }
