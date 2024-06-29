@@ -1,7 +1,7 @@
 // src/pages/api/messages/index.js
 import supabase from '../../../config/supabaseClient';
 
-export default async (req, res) => {
+const handler = async (req, res) => {
   switch (req.method) {
     case 'GET':
       try {
@@ -31,3 +31,5 @@ export default async (req, res) => {
       break;
   }
 };
+
+export default handler;

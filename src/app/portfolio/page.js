@@ -3,6 +3,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import Script from 'next/script';
+
 
 export default function Portfolio() {
   return (
@@ -17,24 +19,9 @@ export default function Portfolio() {
   />
   <meta name="description" content="Vcard HTML5 Template" />
   <meta name="author" content="M_Adnan" />
-  {/* FONTS ONLINE */}
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic,700,700italic,800,800italic,300"
-    rel="stylesheet"
-    type="text/css"
-  />
-  {/*MAIN STYLE*/}
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="../../../code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-  />
-  <link href="css/animate.css" rel="stylesheet" type="text/css" />
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link href="css/main.css" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
-  <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+  
+
+  
   {/* HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries */}
   {/* WARNING: Respond.js doesn't work if you view the page via file:// */}
   {/*[if lt IE 9]>
@@ -590,11 +577,12 @@ export default function Portfolio() {
   </div>
 </>
 
-      <script src="/js/jquery-1.11.0.min.js"async></script>
-      <script src="/js/bootstrap.min.js"async></script>
-      <script src="/js/counter.js"async></script>
-      <script src="/js/jquery.prettyPhoto.js"async></script>
-      <script src="/js/main.js"async></script>
+<Script src="/js/jquery-1.11.0.min.js" strategy="beforeInteractive" />
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"/>
+      <Script src="/js/bootstrap.min.js" strategy="afterInteractive" />
+      <Script src="/js/counter.js" strategy="lazyOnload" />
+      <Script src="/js/jquery.prettyPhoto.js" strategy="lazyOnload" />
+      <Script src="/js/main.js" strategy="lazyOnload" />
     </>
   );
 }

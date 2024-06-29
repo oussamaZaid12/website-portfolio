@@ -3,10 +3,13 @@
 import { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './globals.css';
+import styles from '../../public/css/style.css';
+import Script from 'next/script';
+
 
 export default function Home() {
   return (
+    <>
     <div id="wrap">
       {/* Menu directement intégré dans la page */}
        <div className="sub-banner">
@@ -25,7 +28,7 @@ export default function Home() {
           <div className="profile-in">
             <div className="text-center">
               <div className="avatar">
-                <Image src="/images/avatar.png" alt="Avatar" width={150} height={150} />
+                <Image src="/images/avatar.png" alt="Avatar" width={250} height={280} />
               </div>
             </div>
             <h1>
@@ -45,11 +48,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <script src="/js/jquery-1.11.0.min.js"></script>
-      <script src="/js/bootstrap.min.js"></script>
-      <script src="/js/counter.js"></script>
-      <script src="/js/jquery.prettyPhoto.js"></script>
-      <script src="/js/main.js"></script>
+
     </div>
+    <Script src="/js/jquery-1.11.0.min.js" strategy="beforeInteractive" />
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"/>
+      <Script src="/js/bootstrap.min.js" strategy="afterInteractive" />
+      <Script src="/js/counter.js" strategy="lazyOnload" />
+      <Script src="/js/jquery.prettyPhoto.js" strategy="lazyOnload" />
+      <Script src="/js/main.js" strategy="lazyOnload" />
+    </>
   );
 }

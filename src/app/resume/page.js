@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Script from 'next/script';
 import Link from 'next/link';
 
 export default function Resume() {
@@ -31,12 +32,7 @@ export default function Resume() {
           type="text/css"
           href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
         />
-        <link href="/css/animate.css" rel="stylesheet" type="text/css" />
-        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="/css/main.css" rel="stylesheet" type="text/css" />
-        <link href="/css/style.css" rel="stylesheet" type="text/css" />
-        <link href="/css/responsive.css" rel="stylesheet" type="text/css" />
+     
       </Head>
 
       <div id="wrap">
@@ -106,10 +102,10 @@ export default function Resume() {
               </ul>
               <ul>
                 <li>
-                  <h6 className="no-margin">Ecole Supérieure Privée d'Ingénierie et de Technologies - ESPRIT</h6>
+                  <h6 className="no-margin">Ecole Supérieure Privée d&apos;Ingénierie et de Technologies - ESPRIT</h6>
               
                   <p>
-                  conduit de nombreux projets dans l’enseignement supérieur tunisien, et dans l’enseignement supérieur technique en particulier
+                  conduit de nombreux projets dans l&apos;enseignement supérieur tunisien, et dans l&apos;enseignement supérieur technique en particulier
                   </p>
                 </li>
                
@@ -233,7 +229,7 @@ export default function Resume() {
                   -Conception et développement de la platform Neuroparcer
                   </p>
                   <p>
-                  -Responsable de la conception complète de l'identité visuelle de la startup, incluant la création
+                  -Responsable de la conception complète de l&apos;identité visuelle de la startup, incluant la création
                             de tous les designs et des vidéos promotionnelles.
                   </p>
                 </li>
@@ -292,11 +288,12 @@ export default function Resume() {
         </div>
       </div>
 
-      <script src="./js/jquery-1.11.0.min.js"async></script>
-      <script src="./js/bootstrap.min.js"async></script>
-      <script src="./js/counter.js"async></script>
-      <script src="./js/jquery.prettyPhoto.js"async></script>
-      <script src="./js/main.js"async></script>
+      <Script src="/js/jquery-1.11.0.min.js" strategy="beforeInteractive" />
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"/>
+      <Script src="/js/bootstrap.min.js" strategy="afterInteractive" />
+      <Script src="/js/counter.js" strategy="lazyOnload" />
+      <Script src="/js/jquery.prettyPhoto.js" strategy="lazyOnload" />
+      <Script src="/js/main.js" strategy="lazyOnload" />
     </>
   );
 }

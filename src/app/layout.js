@@ -1,4 +1,11 @@
-// src/app/layout.js
+import Head from 'next/head';
+import '../../public/css/bootstrap.min.css';
+import '../../public/css/font-awesome.min.css';
+import '../../public/css/animate.css';
+import '../../public/css/main.css';
+import '../../public/css/style.css';
+import '../../public/css/responsive.css';
+
 export const metadata = {
   title: 'oussama',
   description: 'Vcard HTML5 Template',
@@ -14,7 +21,12 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta name="author" content={metadata.author} />
+        <meta name="viewport" content={`${viewport.width}, initial-scale=${viewport.initialScale}`} />
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,600italic,700,700italic,800,800italic,300&display=optional"
           rel="stylesheet"
@@ -22,16 +34,9 @@ export default function RootLayout({ children }) {
         />
         <link
           rel="stylesheet"
-          type="text/css"
           href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
         />
-        <link href="/css/animate.css" rel="stylesheet" type="text/css" />
-        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="/css/main.css" rel="stylesheet" type="text/css" />
-        <link href="/css/style.css" rel="stylesheet" type="text/css" />
-        <link href="/css/responsive.css" rel="stylesheet" type="text/css" />
-      </head>
+      </Head>
       <body>{children}</body>
     </html>
   );

@@ -17,13 +17,14 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	background: #FFF;
+	font-weight: normal;
+	position: relative;
+	font-size: 12px;
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	background: url(../../public/images/bg/bg.jpg) center center fixed no-repeat;
+	background-size: cover;
 }
 
 @layer utilities {

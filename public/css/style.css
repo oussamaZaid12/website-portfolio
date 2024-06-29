@@ -899,8 +899,9 @@ section {
 	color: #999999;
 }
 .parallax-bg {
-	background: url(../images/bg/testi-bg.html) center center fixed no-repeat;
-	background-size: cover;
+    /* Remplacez le chemin par celui de votre image réelle */
+    background: url(../images/bg/bg.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 /*=======================================================
       Tastimonial
@@ -1022,8 +1023,9 @@ section {
 	background: #fff97d
 }
 .tastimonial-bg {
-	background: url(../images/bg/testi-bg-2.html) center center fixed no-repeat;
-	background-size: cover;
+    /* Remplacez le chemin par celui de votre image réelle */
+    background: url(../images/bg/bg.jpg) center center fixed no-repeat;
+    background-size: cover;
 }
 .tastimonial-bg {
 }

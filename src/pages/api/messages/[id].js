@@ -1,7 +1,7 @@
 // src/pages/api/messages/[id].js
 import supabase from '../../../config/supabaseClient';
 
-export default async (req, res) => {
+const handler = async (req, res) => {
   const { id } = req.query;
   switch (req.method) {
     case 'PUT':
@@ -34,3 +34,5 @@ export default async (req, res) => {
       break;
   }
 };
+
+export default handler;
